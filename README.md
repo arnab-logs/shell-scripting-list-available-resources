@@ -119,13 +119,13 @@ Even a small script like this can save hours, reduce confusion, and improve visi
 
 You can read the full breakdown of how and why this script was written in my blog post:
 
-** [Read the Blog on Hashnode](#)** 
+**[Read the Blog on Hashnode](https://learning-out-loud-my-devops-journey.hashnode.dev/day-4-shell-scripting-project-listing-aws-resources-with-shell-scripts)**
 
 ---
 
 ## Feedback
 
-If you're learning DevOps or shell scripting, and this helped you — feel free to drop a star ⭐, fork it, or reach out on [GitHub](#) or [LinkedIn](#).
+If you're learning DevOps or shell scripting, and this helped you — feel free to drop a star ⭐, fork it, or reach out on [GitHub](https://github.com/arnab-logs) or [LinkedIn](www.linkedin.com/in/arnab-nandi-55232a236).
 
 I'm learning too — and would love to hear from others on this path.
 
