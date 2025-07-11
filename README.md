@@ -1,15 +1,10 @@
-
----
-
-### `README.md`
-
-````markdown
 # AWS Resource Lister – Shell Script for DevOps Beginners
 
-Hey there! 
+Hey there!  
 This is a companion script to my blog post where I documented my journey of writing a real-world shell script that interacts with AWS.
 
-> **Goal**: List active AWS resources (like EC2, S3, Lambda, etc.) for a given region and service — in a simple, beginner-friendly way.
+> **Goal:**  
+> List active AWS resources (like EC2, S3, Lambda, etc.) for a given region and service — in a simple, beginner-friendly way.
 
 This may look like a small script, but it reflects a common DevOps use case — scripts like this often run daily via cron to track infrastructure usage and cost.
 
@@ -17,11 +12,11 @@ This may look like a small script, but it reflects a common DevOps use case — 
 
 ## What This Script Does
 
-- ✅ Accepts a region and service name as input
-- ✅ Validates the input and environment
-- ✅ Checks if AWS CLI is installed and configured
-- ✅ Lists live resources for supported AWS services
-- ✅ Provides clear and helpful messages for beginners
+- ✅ Accepts a region and service name as input  
+- ✅ Validates the input and environment  
+- ✅ Checks if AWS CLI is installed and configured  
+- ✅ Lists live resources for supported AWS services  
+- ✅ Provides clear and helpful messages for beginners  
 
 ---
 
@@ -47,7 +42,7 @@ You can use the script to list active resources for the following:
 ```bash
 ./aws_resource_list.sh us-east-1 ec2
 ./aws_resource_list.sh ap-south-1 s3
-````
+```
 
 ---
 
@@ -55,9 +50,9 @@ You can use the script to list active resources for the following:
 
 Before using this script, make sure:
 
-✅ AWS CLI is installed
-✅ You’ve configured your credentials using `aws configure`
-✅ You have the required permissions for the AWS services you're querying
+- ✅ AWS CLI is installed  
+- ✅ You've configured your credentials using `aws configure`  
+- ✅ You have the required permissions for the AWS services you're querying  
 
 ---
 
@@ -65,10 +60,10 @@ Before using this script, make sure:
 
 Here’s what the script checks for:
 
-1. **Are two arguments passed?** (region & service)
-2. **Is AWS CLI installed?**
-3. **Is AWS CLI configured (`~/.aws` directory exists)?**
-4. **Is the service supported?** If yes → run the relevant AWS CLI command
+1. **Are two arguments passed?** (region & service)  
+2. **Is AWS CLI installed?**  
+3. **Is AWS CLI configured?** (i.e., `~/.aws` directory exists)  
+4. **Is the service supported?** If yes → run the relevant AWS CLI command  
 
 Each service has a specific command under the hood, like:
 
@@ -96,8 +91,8 @@ chmod 771 aws_resource_list.sh
 
 This means:
 
-* Owner and group can read, write, execute
-* Others can only execute (no read/edit)
+- Owner and group can read, write, and execute  
+- Others can only execute (no read/edit)  
 
 ---
 
@@ -107,29 +102,33 @@ This project is about more than just scripting.
 
 It’s about:
 
-* Making the leap from learning syntax → writing something useful
-* Thinking about usability, validation, and real-world reliability
-* Practicing DevOps thinking — clarity, consistency, and automation
+- Moving from learning syntax → to building something real  
+- Thinking about usability, validation, and reliability  
+- Practicing DevOps habits — clarity, structure, and automation  
 
-Even a small script like this can save hours, reduce confusion, and improve visibility in your cloud environment.
-
----
-
-## Blog Post
-
-You can read the full breakdown of how and why this script was written in my blog post:
-
-**[Read the Blog on Hashnode](https://learning-out-loud-my-devops-journey.hashnode.dev/day-4-shell-scripting-project-listing-aws-resources-with-shell-scripts)**
+Even a small script like this can save hours, reduce confusion, and improve visibility into your cloud resources.
 
 ---
 
-## Feedback
+## 📘 Blog Post
 
-If you're learning DevOps or shell scripting, and this helped you — feel free to drop a star ⭐, fork it, or reach out on [GitHub](https://github.com/arnab-logs) or [LinkedIn](https://www.linkedin.com/in/arnab-nandi-55232a236/).
+Want the full breakdown — with every line explained?
 
-I'm learning too — and would love to hear from others on this path.
+👉 [Read the full blog on Hashnode](https://learning-out-loud-my-devops-journey.hashnode.dev/day-4-shell-scripting-project-listing-aws-resources-with-shell-scripts)
 
 ---
 
-Thanks for stopping by! 
+## 💬 Feedback
+
+If you're learning DevOps or shell scripting and this helped, feel free to:
+
+⭐ Drop a star  
+🍴 Fork it  
+📬 Or reach out on [GitHub](https://github.com/arnab-logs) or [LinkedIn](https://www.linkedin.com/in/arnab-nandi-55232a236/)
+
+I'm learning too — always happy to connect with others on the same path.
+
+---
+
+Thanks for stopping by!  
 — Arnab
