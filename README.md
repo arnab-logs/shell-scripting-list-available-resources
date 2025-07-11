@@ -125,7 +125,7 @@ You can read the full breakdown of how and why this script was written in my blo
 
 ## Feedback
 
-If you're learning DevOps or shell scripting, and this helped you — feel free to drop a star ⭐, fork it, or reach out on [GitHub](https://github.com/arnab-logs) or [LinkedIn](www.linkedin.com/in/arnab-nandi-55232a236).
+If you're learning DevOps or shell scripting, and this helped you — feel free to drop a star ⭐, fork it, or reach out on [GitHub](https://github.com/arnab-logs) or [LinkedIn](https://www.linkedin.com/in/arnab-nandi-55232a236/).
 
 I'm learning too — and would love to hear from others on this path.
 
